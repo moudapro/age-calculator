@@ -3,6 +3,7 @@ let input = document.getElementById('date');
 let btn = document.querySelector('.btn');
 let result = document.querySelector('.res');
 btn.addEventListener('click',function(){
+    /*get the time by mlsecond from 1970 to now*/
     let newest = new Date().getTime()
     let birth = new Date(input.value).getTime()
     let ageByMsec = newest - birth
