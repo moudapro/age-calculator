@@ -1,4 +1,5 @@
 
+
 let input = document.getElementById('date');
 let btn = document.querySelector('.btn');
 let result = document.querySelector('.res');
@@ -7,6 +8,8 @@ btn.addEventListener('click',function(){
     let newest = new Date().getTime()
      /*get the time by milisecond from input value to now*/
     let birth = new Date(input.value).getTime()
+/*get the time by milisecond from input value to now*/
+
     let ageByMsec = newest - birth
 
 /*we can change this operation*/
