@@ -8,7 +8,7 @@ btn.addEventListener('click',function(){
     let newest = new Date().getTime()
      /*get the time by milisecond from input value to now*/
     let birth = new Date(input.value).getTime()
-/*get the time by milisecond from input value to now*/
+/*calcul the age by milisecond*/
 
     let ageByMsec = newest - birth
 
