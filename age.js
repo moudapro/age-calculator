@@ -5,6 +5,7 @@ let result = document.querySelector('.res');
 btn.addEventListener('click',function(){
     /*get the time by milisecond from 1970 to now*/
     let newest = new Date().getTime()
+     /*get the time by milisecond from input value to now*/
     let birth = new Date(input.value).getTime()
     let ageByMsec = newest - birth
 
